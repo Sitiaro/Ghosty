@@ -18,7 +18,7 @@ Commands to be entered in a the bot's dms;
 - .ip <ip_address_here> - ip address lookup.
 - .name <first_name> <last_name> - name lookup (can give address, etc.)
 - .num <10_digit-num here> - phone number lookup.
-- .uname <username> - to check a username across various social platforms.'
+- .uname <username> - to check a username across various social platforms.
 ```
 
 *------------------------*
