@@ -60,7 +60,7 @@ Login with the username and password of your account and type '.help' for a list
 
 ## Replacing python 3.9 with 3.8 ##
 
-(Termux)
+**(Termux)**
 
 Uninstall python -
 ```
