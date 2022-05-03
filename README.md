@@ -1,32 +1,25 @@
 # Kik Bot API #
 
-This is a modification to kik-bot-api-unofficial and can be used as a spambot.
-It uses an updated kik version so you may encounter a captcha while trying to login. 
-You can dm me on [@sitiaro](https://kik.me/sitiaro) on kik if you need help with anything related to this or if you want to buy a botnet for kik.
+This is a modification to kik-bot-api-unofficial and can be used as a dox tool. It also has an in-build url shortener that uses tinyurl and a ping of death. A ping of death is a type of attack on a system that involves sending a malformed or otherwise malicious ping to the system. In layman terms, its a more simplified dos attack.
+
+The bot uses an updated kik version so you may encounter a captcha while trying to login. 
+
+You can dm me at [@Emouit](https://kik.me/Emouit) on kik if you need help with anything related to this or have any suggestions.
 
 # Features #
 
-Dm commands
-```
-Friend - To add the bot to your friend list
-```
-
-*------------------------*
-
 ### Commands ###
 
-Commands to be entered in a public or a private group chat;
-```
-- Spam group chat/sends a fixed no. of messages; command :: .spam (no. of messages)
- 
-- Spam group chat/unlimited spam; command :: Spam
- 
-- Custom spam (group chat); command :: .cs/message_here
-```
+Commands to be entered in a the bot's dms;
 
-# Note #
-
-New changes randomize the device and android id and that might lead to the accounts getting banned faster, so it's recommended to use a newly made account. 
+```
+- .pod <source_ip> <target_ip> <message> <number_of_packets> - ping of death.
+- .shorten <url_here> - to shorten a url.
+- .ip <ip_address_here> - ip address lookup.
+- .name <first_name> <last_name> - name lookup (can give address, etc.)
+- .num <10_digit-num here> - phone number lookup.
+- .uname <username> - to check a username across various social platforms.'
+```
 
 *------------------------*
 
@@ -41,30 +34,19 @@ If you are using [Termux](https://termux.com/), then use `pkg install libxml2 li
 
 ## Installation ## (this may take a while so be patient)
 ```
-$ git clone https://github.com/Sitiaro/kikspambot **
+$ git clone https://github.com/Sitiaro/Ghosty **
 ```
 ```
-$ pip install ./kikspambot
+$ pip install ./Ghosty
 ```
 ## Usage ##
 ```
-$ cd kikspambot
+$ cd Ghosty
 ```
 ```
-$ python spambot.py
+$ python ghosty.py
 ```
-Login with the username and password of your spam account, add it to your friend list by typing 'friend' in the bot's dms and add it to the chat you want to spam. 
-Once you do so, use 
-
-.spam (no. of messages) 
-
-to spam the chat. For infinite spam, use 'spam' without quotes in a group chat.
-
-You can use the below mention command to spam a custom text infinitely;
-```
-$ .cs/(whatever you want to spam)
-```
-## This may lead to your account getting banned from kik so use it at your own expense. ##
+Login with the username and password of your account and type '.help' for a list of commands.
 
 
 ## Replacing python 3.9 with 3.8 ##
@@ -111,27 +93,18 @@ $ make install
 ```
 ## Installation ## (this may take a while so be patient)
 ```
-$ git clone https://github.com/Sitiaro/kikspambot **
+$ git clone https://github.com/Sitiaro/Ghosty **
 ```
 ```
-$ pip3 install ./kikspambot
+$ pip3 install ./Ghosty
 ```
 ## Usage ##
 ```
-$ cd kikspambot
+$ cd Ghosty
 ```
 ```
-$ python3.8 spambot.py
+$ python3.8 ghosty.py
 ```
-Login with the username and password of your spam account, add it to your friend list by typing 'friend' in the bot's dms and add it to the chat you want to spam. 
-Once you do so, use 
+Login with the username and password of your account and use '.help' for a list of commands.
 
-.spam (no. of messages) 
-
-to spam the chat. For infinite spam, use 'spam' without quotes in a group chat.
-
-You can use the below mention command to spam a custom text infinitely;
-```
-$ .cs/(whatever you want to spam)
-```
 *------------------------*
