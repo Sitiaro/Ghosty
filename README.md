@@ -39,7 +39,16 @@ $ git clone https://github.com/Sitiaro/Ghosty **
 ```
 $ pip install ./Ghosty
 ```
+```
+$ cd Ghosty
+```
+```
+$ python requirements.py
+```
 ## Usage ##
+
+(Do **not** use the change directory step if you're already in the working directory, i.e. the Ghosty directory)
+
 ```
 $ cd Ghosty
 ```
