@@ -32,7 +32,7 @@ First, make sure you are using **Python 3.6+**, not python 2.7 or python 3.9. Li
 
 If you are using [Termux](https://termux.com/), then use `pkg install libxml2 libxslt` to install `lxml` and `pkg install zlib libpng libjpeg-turbo` to install `pillow` dependencies.
 
-## Installation ## (this may take a while so be patient)
+## Installation (this may take a while so be patient) ##
 ```
 $ git clone https://github.com/Sitiaro/Ghosty **
 ```
