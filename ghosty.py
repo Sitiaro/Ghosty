@@ -21,8 +21,8 @@ y = ''.join(random.choice(listfn + listfr) for _ in range(16))
 device_id = x
 android_id = y
 
-username = "testing_x1"
-password = "555555"
+username = sys.argv[1] if len(sys.argv) > 1 else input('Username: ')
+password = sys.argv[2] if len(sys.argv) > 2 else input('Password: ')
 
 
 def main():
