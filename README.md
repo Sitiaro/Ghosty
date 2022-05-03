@@ -114,6 +114,5 @@ $ cd Ghosty
 ```
 $ python3.8 ghosty.py
 ```
-Login with the username and password of your account and use '.help' for a list of commands.
+**Login with the username and password of your account and use '.help' for a list of commands.**
 
-*------------------------*
