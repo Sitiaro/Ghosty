@@ -32,7 +32,7 @@ First, make sure you are using **Python 3.6+**, not python 2.7 or python 3.9. Li
 
 If you are using [Termux](https://termux.com/), then use `pkg install libxml2 libxslt` to install `lxml` and `pkg install zlib libpng libjpeg-turbo` to install `pillow` dependencies.
 
-## Installation (this may take a while so be patient) 
+# Installation (this may take a while so be patient) 
 ```
 $ git clone https://github.com/Sitiaro/Ghosty **
 ```
@@ -45,7 +45,7 @@ $ cd Ghosty
 ```
 $ python requirements.py
 ```
-## Usage ##
+## Usage 
 
 (Do **not** use the change directory step if you're already in the working directory, i.e. the Ghosty directory)
 
@@ -58,7 +58,7 @@ $ python ghosty.py
 Login with the username and password of your account and type '.help' for a list of commands.
 
 
-## Replacing python 3.9 with 3.8 ##
+## Replacing python 3.9 with 3.8 
 
 **(Termux)**
 
